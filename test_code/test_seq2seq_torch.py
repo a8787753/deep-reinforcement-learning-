@@ -218,3 +218,19 @@ dec = Decoder(OUTPUT_DIM, DEC_EMB_DIM, HID_DIM, N_LAYERS, DEC_DROPOUT)
 
 model = Seq2Seq(enc, dec, device).to(device)
 
+
+def init_weights(m):
+    for name, param in m.named_parameters():
+        nn.init.uniform_(param.data, -0.08, 0.08)
+
+
+model.apply(init_weights)
+
+
+def count_parameters(model):
+    return sum(p.numel() for p in model.parameters() if p.requires_grad)
+
+
+print(f'The model has {count_parameters(model):,} trainable parameters')
+
+
