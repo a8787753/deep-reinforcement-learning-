@@ -36,3 +36,13 @@ def tokenize_en(text):
     return [tok.text for tok in spacy_en.tokenizer(text)][::-1]
 
 
+SRC = Field(tokenize=tokenize_de,
+            init_token='<sos>',
+            eos_token='<eos>',
+            lower=True)
+
+TRG = Field(tokenize=tokenize_en,
+            init_token='<sos>',
+            eos_token='<eos>',
+            lower=True)
+
