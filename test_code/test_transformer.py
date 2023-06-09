@@ -76,3 +76,35 @@ def attention(query, key, value, mask=None, dropout=None):
 def clones(module, N):
     return nn.ModuleList([copy.deepcopy(module) for _ in range(N)])
 
+
+class MultiHeadAttention(nn.Module):
+    def __init__(self, head, embedding_dim, dropout=0.1):
+        super(MultiHeadAttention, self).__init__()
+
+        assert embedding_dim % head == 0
+
+        self.d_k = embedding_dim // head
+
+        self.head = head
+
+        self.linears = clones(nn.Linear(embedding_dim, embedding_dim), 4)
+
+        self.attn = None
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, query, key, value, mask=None):
+
+        if mask is not None:
+            mask = mask.unsqueeze(1)
+
+        batch_size = query.size(0)
+
+        query, key, value = [model(x).view(batch_size, -1, self.head, self.d_k).
+                             transpose(1, 2) for model, x in zip(self.linears, (query, key, value))]
+
+        x, self.attn = attention(query, key, value, mask=mask, dropout=self.dropout)
+
+        x = x.transpose(1, 2).contiguous().view(batch_size, -1, self.head * self.d_k)
+
+        return self.linears[-1](x)
