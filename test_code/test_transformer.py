@@ -44,3 +44,15 @@ class PositionalEncoding(nn.Module):
         return self.dropout(x)
 
 
+# a = np.triu([[1,2,3],[4,5,6],[7,8,9],[10,11,12]], k=-1)
+# print(a)
+
+
+def subsequent_mask(size):
+    attn_shape = (1, size, size)
+
+    subsequent_mask = np.triu(np.ones(attn_shape), k=1).astype('unit8')
+
+    return torch.from_numpy(1 - subsequent_mask)
+
+
