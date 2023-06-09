@@ -17,7 +17,8 @@ class Embeddings(nn.Module):
         self.d_model = d_model
 
     def forward(self, x):
-        return self.lut(x) / math.sqrt(self.d_model)
+        # return self.lut(x) / math.sqrt(self.d_model)
+        return self.lut(x) * math.sqrt(self.d_model)
 
 
 class PositionalEncoding(nn.Module):
@@ -56,3 +57,12 @@ def subsequent_mask(size):
     return torch.from_numpy(1 - subsequent_mask)
 
 
+def attention(query, key, value, mask=None, dropout=None):
+    d_k = query.size(-1)
+
+    scores = torch.matmul(query, key.transpose(-2, -1)) / math.sqrt(d_k)
+
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    
