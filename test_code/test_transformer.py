@@ -95,8 +95,8 @@ class MultiHeadAttention(nn.Module):
 
     def forward(self, query, key, value, mask=None):
 
-        if mask is not None:
-            mask = mask.unsqueeze(1)
+        # if mask is not None:
+        #     mask = mask.unsqueeze(1)
 
         batch_size = query.size(0)
 
@@ -108,3 +108,16 @@ class MultiHeadAttention(nn.Module):
         x = x.transpose(1, 2).contiguous().view(batch_size, -1, self.head * self.d_k)
 
         return self.linears[-1](x)
+
+
+class PositionwiseFeedForward(nn.Module):
+    def __init__(self, d_model, d_ff, dropout=0.1):
+        super(PositionwiseFeedForward, self).__init__()
+
+        self.w1 = nn.Linear(d_model, d_ff)
+        self.w2 = nn.Linear(d_ff, d_model)
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        return self.w2(self.dropout(F.relu(self.w1(x))))
