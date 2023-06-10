@@ -136,3 +136,16 @@ class LayerNorm(nn.Module):
         mean = x.mean(-1, keepdim=True)
         std = x.std(-1, keepdim=True)
         return self.a2 * (x - mean) / (std + self.eps) + self.b2
+
+
+class SublayerConnection(nn.Module):
+    def __init__(self, size, dropout=0.1):
+        super(SublayerConnection, self).__init__()
+
+        self.norm = LayerNorm(size)
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, sublayer):
+        # return x + self.dropout(sublayer(self.norm(x)))
+        return x + self.dropout(self.norm(sublayer(x)))
