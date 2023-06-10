@@ -199,3 +199,29 @@ class DecoderLayer(nn.Module):
         x = self.sublayer[1](x, lambda x: self.src_attn(x, m, m, source_mask))
 
         return self.sublayer[2](x, self.feed_forward)
+
+
+class Decoder(nn.Module):
+    def __init__(self, layer, N):
+        super(Decoder, self).__init__()
+
+        self.layers = clones(layer, N)
+
+        self.norm = LayerNorm(layer.size)
+
+    def forward(self, x, memory, source_mask, target_mask):
+        for layer in self.layers:
+            x = layer(x, memory, source_mask, target_mask)
+        return self.norm(x)
+
+
+class Generator(nn.Module):
+    def __init__(self, d_model, vocab_size):
+        super(Generator, self).__init__()
+
+        self.project = nn.Linear(d_model, vocab_size)
+
+    def forward(self, x):
+        return F.log_softmax(self.project(x), dim=-1)
+
+
