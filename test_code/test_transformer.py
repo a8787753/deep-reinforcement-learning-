@@ -149,3 +149,20 @@ class SublayerConnection(nn.Module):
     def forward(self, x, sublayer):
         # return x + self.dropout(sublayer(self.norm(x)))
         return x + self.dropout(self.norm(sublayer(x)))
+
+
+class EncoderLayer(nn.Module):
+    def __init__(self, size, self_attn, feed_foward, dropout):
+        super(EncoderLayer, self).__init__()
+
+        self.self_attn =self_attn
+        self.feed_foward = feed_foward
+
+        self.sublayer = clones(SublayerConnection(size, dropout), 2)
+
+        self.size = size
+
+    def foward(self, x, mask):
+        x = self.sublayer[0](x, lambda x: self.self_attn(x, x, x, mask))
+        return self.sublayer[1](x, self.feed_foward)
+
