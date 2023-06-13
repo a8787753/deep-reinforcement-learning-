@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824614a-0423-42c2-a989-3a5721b2edb8" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/SharedReplayBuffer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/rMAPPOPolicy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/r_mappo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_imageio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_wandb.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_wandb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686548066747</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changes">
+      <created>1686619246873</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686619246873</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

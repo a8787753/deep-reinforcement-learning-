@@ -1,32 +1,11 @@
 import numpy as np
 
 
-a = np.random.random((3,3))
+a = np.random.random((2,2,1,3))
 
 print(a)
+print(a.shape)
 
-print(np.all(a))
-
-print(a==True)
-
-a[0,0] = 0
-
-print(a)
-
-print(np.all(a))
-
-print(a==True)
-
-a[0,0] = True
-
-print(a)
-
-print(np.all(a))
-
-print(a==True)
-
-b = np.random.random((3,3))
-
+b = np.concatenate(a)
 print(b)
-
-print(b[a==True])
+print(b.shape)
