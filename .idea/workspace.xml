@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824614a-0423-42c2-a989-3a5721b2edb8" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_wandb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/SharedReplayBuffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/rMAPPOPolicy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/r_mappo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_imageio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_wandb.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test_wandb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +32,64 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QoNyeJKANBnBOj1w9rfwFeEzB2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.test_wandb">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="base_runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deep-reinforcement-learning-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deep-reinforcement-learning-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,40 +111,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_seq2seq_tf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_imageio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\WenqingLi\.conda\envs\workshop_3_9\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO/test" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_seq2seq_tf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_seq2seq_torch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deep-reinforcement-learning-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\WenqingLi\.conda\envs\torch\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_seq2seq_torch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/test/test_imageio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,17 +176,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.test_imageio" />
+      <item itemvalue="Python.base_runner" />
       <item itemvalue="Python.test_wandb" />
       <item itemvalue="Python.test_transformer" />
-      <item itemvalue="Python.test_seq2seq_tf" />
-      <item itemvalue="Python.test_seq2seq_torch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test_imageio" />
         <item itemvalue="Python.test_wandb" />
+        <item itemvalue="Python.base_runner" />
         <item itemvalue="Python.test_transformer" />
-        <item itemvalue="Python.test_seq2seq_torch" />
-        <item itemvalue="Python.test_seq2seq_tf" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686373772315</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Changes">
+      <created>1686548051896</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686548051896</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changes">
+      <created>1686548066747</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686548066747</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,6 +384,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
