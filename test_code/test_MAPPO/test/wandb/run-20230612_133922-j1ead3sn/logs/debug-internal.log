@@ -1,0 +1,227 @@
+2023-06-12 13:39:22,901 INFO    StreamThr :1572 [internal.py:wandb_internal():86] W&B internal server running at pid: 1572, started at: 2023-06-12 13:39:22.900726
+2023-06-12 13:39:22,902 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: status
+2023-06-12 13:39:22,908 INFO    WriterThread:1572 [datastore.py:open_for_write():85] open: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\run-j1ead3sn.wandb
+2023-06-12 13:39:22,909 DEBUG   SenderThread:1572 [sender.py:send():369] send: header
+2023-06-12 13:39:23,048 DEBUG   SenderThread:1572 [sender.py:send():369] send: run
+2023-06-12 13:39:24,469 INFO    SenderThread:1572 [dir_watcher.py:__init__():211] watching files in: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files
+2023-06-12 13:39:24,469 INFO    SenderThread:1572 [sender.py:_start_run_threads():1100] run started: j1ead3sn with start time 1686548362.903725
+2023-06-12 13:39:24,470 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:24,472 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:24,481 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: check_version
+2023-06-12 13:39:24,481 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: check_version
+2023-06-12 13:39:25,487 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\wandb-summary.json
+2023-06-12 13:39:25,555 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: run_start
+2023-06-12 13:39:25,632 DEBUG   HandlerThread:1572 [system_info.py:__init__():31] System info init
+2023-06-12 13:39:25,632 DEBUG   HandlerThread:1572 [system_info.py:__init__():46] System info init done
+2023-06-12 13:39:25,632 INFO    HandlerThread:1572 [system_monitor.py:start():181] Starting system monitor
+2023-06-12 13:39:25,632 INFO    SystemMonitor:1572 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-12 13:39:25,632 INFO    HandlerThread:1572 [system_monitor.py:probe():201] Collecting system info
+2023-06-12 13:39:25,638 INFO    SystemMonitor:1572 [interfaces.py:start():190] Started cpu monitoring
+2023-06-12 13:39:25,638 INFO    SystemMonitor:1572 [interfaces.py:start():190] Started disk monitoring
+2023-06-12 13:39:25,639 INFO    SystemMonitor:1572 [interfaces.py:start():190] Started gpu monitoring
+2023-06-12 13:39:25,648 INFO    SystemMonitor:1572 [interfaces.py:start():190] Started memory monitoring
+2023-06-12 13:39:25,681 INFO    SystemMonitor:1572 [interfaces.py:start():190] Started network monitoring
+2023-06-12 13:39:25,717 DEBUG   HandlerThread:1572 [system_info.py:probe():195] Probing system
+2023-06-12 13:39:25,720 DEBUG   HandlerThread:1572 [system_info.py:_probe_git():180] Probing git
+2023-06-12 13:39:25,951 DEBUG   HandlerThread:1572 [system_info.py:_probe_git():188] Probing git done
+2023-06-12 13:39:25,951 DEBUG   HandlerThread:1572 [system_info.py:probe():240] Probing system done
+2023-06-12 13:39:25,951 DEBUG   HandlerThread:1572 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-06-12T05:39:25.718507', 'startedAt': '2023-06-12T05:39:22.879256', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/test/test_wandb.py', 'codePath': 'test_code\\test_MAPPO\\test\\test_wandb.py', 'git': {'remote': 'https://github.com/a8787753/deep-reinforcement-learning-.git', 'commit': '6d05edb2892bf4aa7e6dfa8f09b68d6e2756c881'}, 'email': '56746354+a8787753@users.noreply.github.com', 'root': 'C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-', 'host': 'DESKTOP-328ON76', 'username': 'WenqingLi', 'executable': 'C:\\Users\\WenqingLi\\.conda\\envs\\torch\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3501.0, 'min': 0.0, 'max': 3501.0}, 'cpu_freq_per_core': [{'current': 3501.0, 'min': 0.0, 'max': 3501.0}], 'disk': {'total': 464.5905570983887, 'used': 268.84517669677734}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 31.91039276123047}}
+2023-06-12 13:39:25,952 INFO    HandlerThread:1572 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-12 13:39:25,952 INFO    HandlerThread:1572 [system_monitor.py:probe():214] Publishing system info
+2023-06-12 13:39:25,952 DEBUG   HandlerThread:1572 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-12 13:39:25,953 DEBUG   HandlerThread:1572 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-12 13:39:25,953 DEBUG   HandlerThread:1572 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-12 13:39:25,958 ERROR   HandlerThread:1572 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2023-06-12 13:39:25,959 DEBUG   HandlerThread:1572 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-12 13:39:25,960 INFO    HandlerThread:1572 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-12 13:39:25,964 DEBUG   SenderThread:1572 [sender.py:send():369] send: files
+2023-06-12 13:39:25,964 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-12 13:39:25,972 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-12 13:39:25,973 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: stop_status
+2023-06-12 13:39:25,974 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,975 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,976 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,977 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,977 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,978 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,978 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:25,979 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-12 13:39:26,492 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\wandb-metadata.json
+2023-06-12 13:39:26,492 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\conda-environment.yaml
+2023-06-12 13:39:26,493 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\requirements.txt
+2023-06-12 13:39:26,915 DEBUG   SenderThread:1572 [sender.py:send():369] send: telemetry
+2023-06-12 13:39:26,915 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,915 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,916 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,917 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,917 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,918 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,918 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,918 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,919 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,919 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,919 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,920 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,921 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,921 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,922 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,922 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,922 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,923 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,923 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,923 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,925 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,925 DEBUG   SenderThread:1572 [sender.py:send():369] send: history
+2023-06-12 13:39:26,925 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: summary_record
+2023-06-12 13:39:26,926 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,927 DEBUG   SenderThread:1572 [sender.py:send():369] send: exit
+2023-06-12 13:39:26,928 INFO    SenderThread:1572 [sender.py:send_exit():574] handling exit code: 0
+2023-06-12 13:39:26,928 INFO    SenderThread:1572 [sender.py:send_exit():576] handling runtime: 0
+2023-06-12 13:39:26,929 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,929 INFO    SenderThread:1572 [sender.py:send_exit():582] send defer
+2023-06-12 13:39:26,929 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,929 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-12 13:39:26,929 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,929 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-12 13:39:26,929 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 1
+2023-06-12 13:39:26,929 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,929 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-12 13:39:26,930 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,930 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-12 13:39:26,930 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 2
+2023-06-12 13:39:26,930 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,930 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-12 13:39:26,930 INFO    HandlerThread:1572 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-12 13:39:26,930 INFO    HandlerThread:1572 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-12 13:39:26,930 DEBUG   SystemMonitor:1572 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-12 13:39:26,930 INFO    HandlerThread:1572 [interfaces.py:finish():202] Joined disk monitor
+2023-06-12 13:39:26,937 DEBUG   SystemMonitor:1572 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-12 13:39:26,938 DEBUG   SystemMonitor:1572 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-12 13:39:26,986 INFO    HandlerThread:1572 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-12 13:39:26,986 INFO    HandlerThread:1572 [interfaces.py:finish():202] Joined memory monitor
+2023-06-12 13:39:26,987 INFO    HandlerThread:1572 [interfaces.py:finish():202] Joined network monitor
+2023-06-12 13:39:26,987 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,987 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-12 13:39:26,987 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 3
+2023-06-12 13:39:26,987 DEBUG   SenderThread:1572 [sender.py:send():369] send: stats
+2023-06-12 13:39:26,987 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,987 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-12 13:39:26,988 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,988 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-12 13:39:26,988 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 4
+2023-06-12 13:39:26,988 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,988 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-12 13:39:26,988 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,988 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-12 13:39:26,988 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 5
+2023-06-12 13:39:26,988 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,988 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-12 13:39:26,989 DEBUG   SenderThread:1572 [sender.py:send():369] send: summary
+2023-06-12 13:39:26,989 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-12 13:39:26,990 INFO    SenderThread:1572 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-12 13:39:26,990 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,990 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-12 13:39:26,990 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 6
+2023-06-12 13:39:26,990 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: poll_exit
+2023-06-12 13:39:26,991 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:26,991 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-12 13:39:26,991 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:26,991 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-12 13:39:26,995 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: status_report
+2023-06-12 13:39:27,352 INFO    wandb-upload_0:1572 [upload_job.py:push():133] Uploaded file C:\Users\WENQIN~1\AppData\Local\Temp\tmpxgxt1ixiwandb\tmcr89pw-wandb-metadata.json
+2023-06-12 13:39:27,432 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 7
+2023-06-12 13:39:27,432 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:27,432 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-12 13:39:27,433 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:27,433 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-12 13:39:27,500 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\config.yaml
+2023-06-12 13:39:27,501 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\wandb-summary.json
+2023-06-12 13:39:27,501 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\output.log
+2023-06-12 13:39:27,999 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-12 13:39:28,933 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 8
+2023-06-12 13:39:28,933 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: poll_exit
+2023-06-12 13:39:28,933 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:28,934 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-12 13:39:28,934 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:28,934 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-12 13:39:28,934 INFO    SenderThread:1572 [job_builder.py:build():232] Attempting to build job artifact
+2023-06-12 13:39:28,935 INFO    SenderThread:1572 [job_builder.py:build():256] is repo sourced job
+2023-06-12 13:39:28,939 INFO    SenderThread:1572 [job_builder.py:build():297] adding wandb-job metadata file
+2023-06-12 13:39:28,948 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 9
+2023-06-12 13:39:28,948 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:28,948 DEBUG   SenderThread:1572 [sender.py:send():369] send: artifact
+2023-06-12 13:39:28,948 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-12 13:39:29,006 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-12 13:39:29,517 INFO    Thread-16 :1572 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\output.log
+2023-06-12 13:39:30,815 INFO    SenderThread:1572 [sender.py:send_artifact():1450] sent artifact job-https___github.com_a8787753_deep-reinforcement-learning-.git_test_code_test_MAPPO_test_test_wandb.py - {'id': 'QXJ0aWZhY3Q6NDg0NjgwMzM3', 'digest': 'a74971a755ac1ac915277c5da650fb90', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_a8787753_deep-reinforcement-learning-.git_test_code_test_MAPPO_test_test_wandb.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_a8787753_deep-reinforcement-learning-.git_test_code_test_MAPPO_test_test_wandb.py', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc2MTQwMDEy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDg0NjgwMzM3', 'versionIndex': 1}}, 'version': 'v1'}
+2023-06-12 13:39:30,815 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:30,815 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-12 13:39:30,815 INFO    SenderThread:1572 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-12 13:39:31,533 INFO    SenderThread:1572 [dir_watcher.py:finish():389] scan: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files
+2023-06-12 13:39:31,533 INFO    SenderThread:1572 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\conda-environment.yaml conda-environment.yaml
+2023-06-12 13:39:31,534 INFO    SenderThread:1572 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\config.yaml config.yaml
+2023-06-12 13:39:31,534 INFO    SenderThread:1572 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\output.log output.log
+2023-06-12 13:39:31,537 INFO    SenderThread:1572 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\requirements.txt requirements.txt
+2023-06-12 13:39:31,541 INFO    SenderThread:1572 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\wandb-metadata.json wandb-metadata.json
+2023-06-12 13:39:31,541 INFO    SenderThread:1572 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\wandb-summary.json wandb-summary.json
+2023-06-12 13:39:31,541 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 10
+2023-06-12 13:39:31,544 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: poll_exit
+2023-06-12 13:39:31,544 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:31,545 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-12 13:39:31,545 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:31,545 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-12 13:39:31,547 INFO    SenderThread:1572 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-12 13:39:32,396 INFO    wandb-upload_0:1572 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\config.yaml
+2023-06-12 13:39:33,212 INFO    wandb-upload_3:1572 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\wandb-summary.json
+2023-06-12 13:39:33,353 INFO    wandb-upload_1:1572 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\output.log
+2023-06-12 13:39:33,781 INFO    wandb-upload_2:1572 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\files\requirements.txt
+2023-06-12 13:39:33,994 INFO    Thread-15 :1572 [sender.py:transition_state():602] send defer: 11
+2023-06-12 13:39:33,994 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:33,994 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-12 13:39:33,994 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:33,994 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-12 13:39:33,994 INFO    SenderThread:1572 [file_pusher.py:join():164] waiting for file pusher
+2023-06-12 13:39:33,994 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 12
+2023-06-12 13:39:33,994 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:33,994 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-12 13:39:33,994 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: status_report
+2023-06-12 13:39:33,995 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:33,995 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-12 13:39:34,054 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-12 13:39:34,391 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 13
+2023-06-12 13:39:34,391 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:34,391 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-12 13:39:34,391 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:34,391 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-12 13:39:34,391 INFO    SenderThread:1572 [sender.py:transition_state():602] send defer: 14
+2023-06-12 13:39:34,391 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: defer
+2023-06-12 13:39:34,392 DEBUG   SenderThread:1572 [sender.py:send():369] send: final
+2023-06-12 13:39:34,392 INFO    HandlerThread:1572 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-12 13:39:34,392 DEBUG   SenderThread:1572 [sender.py:send():369] send: footer
+2023-06-12 13:39:34,392 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: defer
+2023-06-12 13:39:34,392 INFO    SenderThread:1572 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-12 13:39:34,392 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-12 13:39:34,392 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: server_info
+2023-06-12 13:39:34,393 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-12 13:39:34,393 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: poll_exit
+2023-06-12 13:39:34,393 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-12 13:39:34,393 DEBUG   SenderThread:1572 [sender.py:send_request():396] send_request: server_info
+2023-06-12 13:39:34,767 INFO    MainThread:1572 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-12 13:39:34,767 INFO    MainThread:1572 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-12 13:39:34,768 INFO    MainThread:1572 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-06-12 13:39:34,768 DEBUG   HandlerThread:1572 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-12 13:39:34,768 INFO    HandlerThread:1572 [handler.py:finish():854] shutting down handler
+2023-06-12 13:39:35,408 INFO    WriterThread:1572 [datastore.py:close():298] close: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\test\wandb\run-20230612_133922-j1ead3sn\run-j1ead3sn.wandb
+2023-06-12 13:39:35,770 INFO    SenderThread:1572 [sender.py:finish():1526] shutting down sender
+2023-06-12 13:39:35,770 INFO    SenderThread:1572 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-12 13:39:35,770 INFO    SenderThread:1572 [file_pusher.py:join():164] waiting for file pusher
