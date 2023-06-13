@@ -1,11 +1,6 @@
 import numpy as np
+import torch
 
+device = torch.device('cpu')
 
-a = np.random.random((2,2,1,3))
-
-print(a)
-print(a.shape)
-
-b = np.concatenate(a)
-print(b)
-print(b.shape)
+print(dict(dtype=torch.float32, device=device))
