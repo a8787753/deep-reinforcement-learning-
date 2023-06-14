@@ -28,17 +28,26 @@ def mse_loss():
     raise NotImplemented
 
 
-def check():
+def check(input):
     # from algorithm
-    raise NotImplemented
+    output = torch.from_numpy(input) if type(input) == np.ndarray else input
+    return output
 
 
 def update_linear_schedule():
     raise NotImplemented
 
 
-def init():
-    raise NotImplemented
+def init(module, weight_init, bias_init, gain=1):
+    weight_init(module.weight.data, gain=gain)
+    bias_init(module.bias.data)
+    return module
+
+def get_clones(module, N):
+    return nn.ModuleList([copy.deepcopy(module) for i in range(N)])
+
+
+"""MLP Modules and utils."""
 
 
 class MLPLayer(nn.Module):
