@@ -1,5 +1,7 @@
 import torch.nn as nn
 import torch
+import math
+import torch.nn.functional as F
 
 from distributions import Bernoulli, Categorical, DiagGaussian
 
@@ -28,9 +30,9 @@ def mse_loss():
     raise NotImplemented
 
 
-def check(input):
+def check(inpt):
     # from algorithm
-    output = torch.from_numpy(input) if type(input) == np.ndarray else input
+    output = torch.from_numpy(inpt) if type(inpt) == np.ndarray else inpt
     return output
 
 
