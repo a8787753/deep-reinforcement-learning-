@@ -22,7 +22,7 @@ class Runner(object):
         self.all_args = config['all_args']
         self.envs = config['envs']
         self.eval_envs = config['eval_envs']
-        self.device = config['divice']
+        self.device = config['device']
         self.num_agents = config['num_agents']
         if config.__contains__('render_envs'):
             self.render_envs = config['render_envs']

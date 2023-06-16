@@ -241,7 +241,7 @@ class ACTLayer(nn.Module):
                 [DiagGaussian(inputs_dim, continous_dim, use_orthogonal, gain), Categorical(
                     inputs_dim, discrete_dim, use_orthogonal, gain)])
 
-    def forward(self, x, available_actions=None, deterministic=False):
+    def forward(self, x, available_actions=None, deterministic=True):
         """
         Compute actions and action logprobs from given input.
         :param x: (torch.Tensor) input to network.

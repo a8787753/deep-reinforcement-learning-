@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824614a-0423-42c2-a989-3a5721b2edb8" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/test_code/test multiprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/Layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/env_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/train_football.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAPPO/get_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_mujoco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deep-reinforcement-learning-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep-reinforcement-learning-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test multiprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test multiprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/Layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/Layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/train_football.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/train_football.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/valuenorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/valuenorm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +50,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.test multiprocess">
-    <configuration name="Layers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.train_football">
+    <configuration name="params" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,53 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="D:/myPythonProject/mp_a2c_TTP" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/Layers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="distributions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deep-reinforcement-learning-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/distributions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deep-reinforcement-learning-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/test.py" />
+      <option name="SCRIPT_NAME" value="D:/myPythonProject/mp_a2c_TTP/params.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,6 +76,9 @@
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -153,7 +114,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_agentprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deep-reinforcement-learning-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/myPythonProject/mp_a2c_TTP/test_module" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/myPythonProject/mp_a2c_TTP/test_module/test_agentprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_mujoco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deep-reinforcement-learning-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_mujoco.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_football" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/util.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/train_football.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,19 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.Layers" />
-      <item itemvalue="Python.distributions" />
-      <item itemvalue="Python.test (2)" />
+      <item itemvalue="Python.train_football" />
+      <item itemvalue="Python.test_mujoco" />
+      <item itemvalue="Python.params" />
       <item itemvalue="Python.test multiprocess" />
-      <item itemvalue="Python.util" />
+      <item itemvalue="Python.test_agentprocess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train_football" />
+        <item itemvalue="Python.test_mujoco" />
         <item itemvalue="Python.test multiprocess" />
-        <item itemvalue="Python.util" />
-        <item itemvalue="Python.Layers" />
-        <item itemvalue="Python.distributions" />
-        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.test_agentprocess" />
+        <item itemvalue="Python.params" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686792199082</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Changes">
+      <created>1686839951188</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686839951188</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,11 +479,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/.conda/envs/torch/Lib/site-packages/torch/nn/modules/linear.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/test_code/test multiprocess.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

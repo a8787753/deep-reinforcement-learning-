@@ -20,7 +20,7 @@ def _t2n(x):
 
 class FootballRunner(Runner):
     def __init__(self, config):
-        super(FootballRunner, self).__init__()
+        super(FootballRunner, self).__init__(config)
         self.env_infos = defaultdict(list)
 
     def run(self):
