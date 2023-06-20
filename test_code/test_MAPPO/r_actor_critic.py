@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
-from util import init, check, CNNBase, MLPBase, RNNLayer, ACTLayer, PopArt, get_shape_from_obs_space
+from util import init, check, get_shape_from_obs_space
+from Layers import  CNNBase, MLPBase, RNNLayer, ACTLayer, PopArt
 
 
 class R_Actor(nn.Module):
@@ -24,7 +25,7 @@ class R_Actor(nn.Module):
         self.tpdv = dict(dtype=torch.float32, device=device)
 
         obs_shape = get_shape_from_obs_space(obs_space)
-        base = CNNBase if len(obs_shape) == 3 else MLPBase
+        base = MLPBase
         self.base = base(args, obs_shape)
 
         if self._use_naive_recurrent_policy or self._use_recurrent_policy:
@@ -121,7 +122,7 @@ class R_Critic(nn.Module):
         init_method = [nn.init.xavier_uniform_, nn.init.orthogonal_][self._use_orthogonal]
 
         cent_obs_shape = get_shape_from_obs_space(cent_obs_space)
-        base = CNNBase if len(cent_obs_shape) == 3 else MLPBase
+        base = MLPBase
         self.base = base(args, cent_obs_shape)
 
         if self._use_naive_recurrent_policy or self._use_recurrent_policy:

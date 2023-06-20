@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 215, in <module>
+    main(sys.argv[1:])
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 199, in main
+    runner = Runner(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\football_runner.py", line 23, in __init__
+    super(FootballRunner, self).__init__(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\base_runner.py", line 72, in __init__
+    from rMAPPOPolicy import R_MAPPOPolicy as Policy
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\rMAPPOPolicy.py", line 2, in <module>
+    from r_actor_critic import R_Actor, R_Critic
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_actor_critic.py", line 3, in <module>
+    from util import init, check, CNNBase, MLPBase, RNNLayer, ACTLayer, PopArt, get_shape_from_obs_space
+ImportError: cannot import name 'CNNBase' from 'util' (C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\util.py)

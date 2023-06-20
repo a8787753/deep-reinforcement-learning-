@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from tensorboardX import SummaryWriter
 # from onpolicy.utils.shared_buffer import SharedReplayBuffer
-import SharedReplayBuffer
+from shared_buffer import SharedReplayBuffer
 
 def _t2n(x):
     '''Convert torch tensor to a numpy array.'''
@@ -119,7 +119,7 @@ class Runner(object):
     @torch.no_grad()
     def compute(self):
         '''Calculate returns for the collected data.'''
-        self.trainer.pre_rollout()
+        self.trainer.prep_rollout()
         next_values = self.trainer.policy.get_values(np.concatenate(self.buffer.share_obs[-1]),
                                                      np.concatenate(self.buffer.rnn_states_critic[-1]),
                                                      np.concatenate(self.buffer.masks[-1]))
@@ -128,7 +128,7 @@ class Runner(object):
 
     def train(self):
         '''Train policies with data in buffer'''
-        self.trainer.pre_training()
+        self.trainer.prep_training()
         train_infos = self.trainer.train(self.buffer)
         self.buffer.after_update()
         return train_infos

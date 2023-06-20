@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 215, in <module>
+    main(sys.argv[1:])
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 199, in main
+    runner = Runner(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\football_runner.py", line 23, in __init__
+    super(FootballRunner, self).__init__(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\base_runner.py", line 80, in __init__
+    self.policy = Policy(self.all_args,
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\rMAPPOPolicy.py", line 27, in __init__
+    self.actor = R_Actor(args, self.obs_space, self.act_space, self.device)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_actor_critic.py", line 28, in __init__
+    base = CNNBase if len(obs_shape) == 3 else MLPBase
+TypeError: object of type 'int' has no len()

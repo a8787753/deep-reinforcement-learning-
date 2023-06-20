@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 215, in <module>
+    main(sys.argv[1:])
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 199, in main
+    runner = Runner(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\football_runner.py", line 23, in __init__
+    super(FootballRunner, self).__init__()
+TypeError: __init__() missing 1 required positional argument: 'config'

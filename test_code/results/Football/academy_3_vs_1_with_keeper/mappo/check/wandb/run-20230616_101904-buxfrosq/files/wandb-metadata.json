@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-06-16T02:19:07.334194",
+    "startedAt": "2023-06-16T02:19:04.639941",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py",
+    "codePath": "test_code\\test_MAPPO\\train_football.py",
+    "git": {
+        "remote": "https://github.com/a8787753/deep-reinforcement-learning-.git",
+        "commit": "701f2d23aea0370fdeee24b437b5431b5476a451"
+    },
+    "email": "56746354+a8787753@users.noreply.github.com",
+    "root": "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-",
+    "host": "DESKTOP-328ON76",
+    "username": "WenqingLi",
+    "executable": "C:\\Users\\WenqingLi\\.conda\\envs\\torch\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3501.0,
+        "min": 0.0,
+        "max": 3501.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3501.0,
+            "min": 0.0,
+            "max": 3501.0
+        }
+    ],
+    "disk": {
+        "total": 464.5905570983887,
+        "used": 278.78582763671875
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 31.91039276123047
+    }
+}

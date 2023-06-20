@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 215, in <module>
+    main(sys.argv[1:])
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 199, in main
+    runner = Runner(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\football_runner.py", line 23, in __init__
+    super(FootballRunner, self).__init__(config)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\base_runner.py", line 71, in __init__
+    from r_mappo import R_MAPPO as TrainAlgo
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_mappo.py", line 10, in <module>
+    from valuenorm import ValueNorm
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\valuenorm.py", line 1, in <module>
+    class ValueNorm(object):
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\valuenorm.py", line 2, in ValueNorm
+    raise NotImplemented
+TypeError: exceptions must derive from BaseException
