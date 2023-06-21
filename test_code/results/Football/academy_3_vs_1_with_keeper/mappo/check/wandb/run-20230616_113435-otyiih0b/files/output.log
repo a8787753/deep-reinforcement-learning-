@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 215, in <module>
+    main(sys.argv[1:])
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 200, in main
+    runner.run()
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\football_runner.py", line 50, in run
+    train_infos = self.train()
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\base_runner.py", line 132, in train
+    train_infos = self.trainer.train(self.buffer)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_mappo.py", line 203, in train
+    = self.ppo_update(sample, update_actor)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_mappo.py", line 123, in ppo_update
+    imp_weights = torch.exp(action_log_probs - old_action_log_probs_batch)
+KeyboardInterrupt

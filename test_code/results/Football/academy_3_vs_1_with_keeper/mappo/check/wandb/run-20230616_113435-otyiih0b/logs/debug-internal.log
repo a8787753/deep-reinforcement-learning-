@@ -1,0 +1,438 @@
+2023-06-16 11:34:36,002 INFO    StreamThr :16320 [internal.py:wandb_internal():86] W&B internal server running at pid: 16320, started at: 2023-06-16 11:34:36.001631
+2023-06-16 11:34:36,005 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status
+2023-06-16 11:34:36,122 INFO    WriterThread:16320 [datastore.py:open_for_write():85] open: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\run-otyiih0b.wandb
+2023-06-16 11:34:36,124 DEBUG   SenderThread:16320 [sender.py:send():369] send: header
+2023-06-16 11:34:36,346 DEBUG   SenderThread:16320 [sender.py:send():369] send: run
+2023-06-16 11:34:38,087 INFO    SenderThread:16320 [dir_watcher.py:__init__():211] watching files in: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files
+2023-06-16 11:34:38,087 INFO    SenderThread:16320 [sender.py:_start_run_threads():1100] run started: otyiih0b with start time 1686886476.007754
+2023-06-16 11:34:38,196 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: summary_record
+2023-06-16 11:34:38,197 INFO    SenderThread:16320 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-16 11:34:38,213 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: check_version
+2023-06-16 11:34:38,214 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: check_version
+2023-06-16 11:34:39,103 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\wandb-summary.json
+2023-06-16 11:34:39,790 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: run_start
+2023-06-16 11:34:39,871 DEBUG   HandlerThread:16320 [system_info.py:__init__():31] System info init
+2023-06-16 11:34:39,871 DEBUG   HandlerThread:16320 [system_info.py:__init__():46] System info init done
+2023-06-16 11:34:39,871 INFO    HandlerThread:16320 [system_monitor.py:start():181] Starting system monitor
+2023-06-16 11:34:39,872 INFO    SystemMonitor:16320 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-16 11:34:39,872 INFO    HandlerThread:16320 [system_monitor.py:probe():201] Collecting system info
+2023-06-16 11:34:39,878 INFO    SystemMonitor:16320 [interfaces.py:start():190] Started cpu monitoring
+2023-06-16 11:34:39,878 INFO    SystemMonitor:16320 [interfaces.py:start():190] Started disk monitoring
+2023-06-16 11:34:39,880 INFO    SystemMonitor:16320 [interfaces.py:start():190] Started gpu monitoring
+2023-06-16 11:34:39,887 INFO    SystemMonitor:16320 [interfaces.py:start():190] Started memory monitoring
+2023-06-16 11:34:39,922 INFO    SystemMonitor:16320 [interfaces.py:start():190] Started network monitoring
+2023-06-16 11:34:39,959 DEBUG   HandlerThread:16320 [system_info.py:probe():195] Probing system
+2023-06-16 11:34:39,961 DEBUG   HandlerThread:16320 [system_info.py:_probe_git():180] Probing git
+2023-06-16 11:34:40,248 DEBUG   HandlerThread:16320 [system_info.py:_probe_git():188] Probing git done
+2023-06-16 11:34:40,249 DEBUG   HandlerThread:16320 [system_info.py:probe():240] Probing system done
+2023-06-16 11:34:40,249 DEBUG   HandlerThread:16320 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-06-16T03:34:39.959775', 'startedAt': '2023-06-16T03:34:35.966610', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py', 'codePath': 'test_code\\test_MAPPO\\train_football.py', 'git': {'remote': 'https://github.com/a8787753/deep-reinforcement-learning-.git', 'commit': '701f2d23aea0370fdeee24b437b5431b5476a451'}, 'email': '56746354+a8787753@users.noreply.github.com', 'root': 'C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-', 'host': 'DESKTOP-328ON76', 'username': 'WenqingLi', 'executable': 'C:\\Users\\WenqingLi\\.conda\\envs\\torch\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3501.0, 'min': 0.0, 'max': 3501.0}, 'cpu_freq_per_core': [{'current': 3501.0, 'min': 0.0, 'max': 3501.0}], 'disk': {'total': 464.5905570983887, 'used': 279.8730773925781}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 31.91039276123047}}
+2023-06-16 11:34:40,249 INFO    HandlerThread:16320 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-16 11:34:40,249 INFO    HandlerThread:16320 [system_monitor.py:probe():214] Publishing system info
+2023-06-16 11:34:40,249 DEBUG   HandlerThread:16320 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-16 11:34:40,252 DEBUG   HandlerThread:16320 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-16 11:34:40,252 DEBUG   HandlerThread:16320 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-16 11:34:40,257 ERROR   HandlerThread:16320 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 578, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2023-06-16 11:34:40,260 DEBUG   HandlerThread:16320 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-16 11:34:40,262 INFO    HandlerThread:16320 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-16 11:34:40,271 DEBUG   SenderThread:16320 [sender.py:send():369] send: files
+2023-06-16 11:34:40,272 INFO    SenderThread:16320 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-16 11:34:40,284 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:34:40,285 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:34:41,119 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\wandb-metadata.json
+2023-06-16 11:34:41,119 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\conda-environment.yaml
+2023-06-16 11:34:41,120 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\requirements.txt
+2023-06-16 11:34:41,493 DEBUG   SenderThread:16320 [sender.py:send():369] send: telemetry
+2023-06-16 11:34:41,493 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:34:42,394 INFO    wandb-upload_0:16320 [upload_job.py:push():133] Uploaded file C:\Users\WENQIN~1\AppData\Local\Temp\tmpo2tb_gf5wandb\m3lnw0dk-wandb-metadata.json
+2023-06-16 11:34:46,535 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:34:51,572 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:34:55,305 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:34:55,306 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:34:56,654 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:01,704 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:06,742 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:07,931 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\config.yaml
+2023-06-16 11:35:10,309 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:35:10,310 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:35:12,669 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:17,720 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:22,747 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:25,313 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:35:25,313 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:35:28,681 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:33,835 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:38,852 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:39,927 DEBUG   SystemMonitor:16320 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-16 11:35:39,929 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:35:40,341 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:35:40,342 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:35:44,725 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:49,744 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:54,774 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:35:55,349 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:35:55,349 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:36:00,773 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:05,835 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:09,939 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:36:10,363 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:36:10,363 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:36:11,727 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:16,783 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:21,836 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:25,380 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:36:25,382 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:36:27,745 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:32,834 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:37,910 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:39,945 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:36:40,398 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:36:40,398 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:36:43,774 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:48,815 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:53,839 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:36:55,419 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:36:55,420 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:36:59,812 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:04,898 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:09,924 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:09,957 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:37:10,426 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:37:10,426 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:37:15,831 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:20,867 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:25,438 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:37:25,438 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:37:26,816 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:31,835 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:36,870 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:39,971 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:37:40,443 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:37:40,444 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:37:42,816 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:47,851 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:52,907 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:37:55,452 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:37:55,453 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:37:58,834 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:03,887 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:08,943 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:09,977 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:38:10,478 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:38:10,479 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:38:14,877 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:19,899 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:24,935 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:25,477 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:38:25,478 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:38:30,897 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:35,923 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:39,991 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:38:40,486 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:38:40,487 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:38:41,845 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:46,882 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:51,913 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:38:55,495 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:38:55,496 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:38:57,865 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:02,924 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:07,959 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:10,010 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:39:10,501 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:39:10,501 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:39:13,877 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:18,915 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:23,951 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:25,518 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:39:25,519 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:39:29,908 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:34,983 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:40,006 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:40,024 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:39:40,544 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:39:40,545 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:39:45,942 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:50,968 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:39:55,549 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:39:55,549 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:39:56,906 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:01,946 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:06,965 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:10,038 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:40:10,576 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:40:10,576 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:40:12,001 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:17,041 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:22,065 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:25,576 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:40:25,577 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:40:27,959 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:33,022 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:38,102 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:40,053 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:40:40,572 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:40:40,573 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:40:43,944 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:48,978 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:54,009 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:40:55,577 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:40:55,578 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:40:59,969 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:05,076 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:10,062 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:41:10,535 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:10,580 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:41:10,581 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:41:15,942 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:20,967 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:25,601 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:41:25,601 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:41:26,960 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:32,061 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:37,091 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:40,067 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:41:40,614 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:41:40,615 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:41:42,983 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:48,020 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:53,049 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:41:55,628 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:41:55,629 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:41:59,028 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:04,062 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:09,079 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:10,080 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:42:10,640 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:42:10,640 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:42:15,030 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:20,069 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:25,105 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:25,642 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:42:25,642 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:42:31,099 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:36,159 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:40,091 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:42:40,635 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:42:40,636 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:42:41,994 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:47,037 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:52,081 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:42:55,639 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:42:55,639 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:42:58,014 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:03,066 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:08,092 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:10,095 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:43:10,641 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:43:10,642 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:43:14,006 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:19,036 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:24,049 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:25,668 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:43:25,669 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:43:29,056 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:34,084 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:39,103 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:40,110 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:43:40,659 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:43:40,659 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:43:45,057 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:50,093 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:55,126 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:43:55,659 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:43:55,659 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:44:01,033 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:06,060 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:10,116 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:44:10,678 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:44:10,678 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:44:12,035 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:17,081 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:22,115 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:25,687 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:44:25,688 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:44:28,101 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:33,131 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:38,148 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:40,132 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:44:40,707 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:44:40,708 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:44:44,080 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:49,117 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:54,146 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:44:55,707 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:44:55,708 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:45:00,079 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:05,114 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:10,144 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:45:10,146 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:10,721 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:45:10,722 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:45:16,105 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:21,161 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:25,734 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 11:45:25,735 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 11:45:27,082 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:32,114 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:37,167 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:37,614 DEBUG   SenderThread:16320 [sender.py:send():369] send: exit
+2023-06-16 11:45:37,614 INFO    SenderThread:16320 [sender.py:send_exit():574] handling exit code: 0
+2023-06-16 11:45:37,614 INFO    SenderThread:16320 [sender.py:send_exit():576] handling runtime: 657
+2023-06-16 11:45:37,615 INFO    SenderThread:16320 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-16 11:45:37,616 INFO    SenderThread:16320 [sender.py:send_exit():582] send defer
+2023-06-16 11:45:37,616 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,617 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-16 11:45:37,617 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,617 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-16 11:45:37,617 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 1
+2023-06-16 11:45:37,617 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,617 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-16 11:45:37,618 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,618 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-16 11:45:37,618 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 2
+2023-06-16 11:45:37,618 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,618 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-16 11:45:37,618 INFO    HandlerThread:16320 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-16 11:45:37,618 DEBUG   SystemMonitor:16320 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-16 11:45:37,619 INFO    HandlerThread:16320 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-16 11:45:37,619 DEBUG   SystemMonitor:16320 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-16 11:45:37,626 INFO    HandlerThread:16320 [interfaces.py:finish():202] Joined disk monitor
+2023-06-16 11:45:37,670 INFO    HandlerThread:16320 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-16 11:45:37,670 INFO    HandlerThread:16320 [interfaces.py:finish():202] Joined memory monitor
+2023-06-16 11:45:37,671 INFO    HandlerThread:16320 [interfaces.py:finish():202] Joined network monitor
+2023-06-16 11:45:37,671 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,671 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-16 11:45:37,671 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 3
+2023-06-16 11:45:37,672 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,672 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-16 11:45:37,673 DEBUG   SenderThread:16320 [sender.py:send():369] send: stats
+2023-06-16 11:45:37,674 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,674 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-16 11:45:37,674 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 4
+2023-06-16 11:45:37,674 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,674 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-16 11:45:37,674 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,675 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-16 11:45:37,675 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 5
+2023-06-16 11:45:37,675 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,675 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-16 11:45:37,675 DEBUG   SenderThread:16320 [sender.py:send():369] send: summary
+2023-06-16 11:45:37,677 INFO    SenderThread:16320 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-16 11:45:37,677 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,678 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-16 11:45:37,678 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 6
+2023-06-16 11:45:37,678 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,678 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-16 11:45:37,678 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,678 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-16 11:45:37,678 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 7
+2023-06-16 11:45:37,679 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:37,679 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:37,679 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-16 11:45:37,679 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:37,679 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-16 11:45:38,595 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\wandb-summary.json
+2023-06-16 11:45:38,596 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\output.log
+2023-06-16 11:45:38,626 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:39,632 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 8
+2023-06-16 11:45:39,632 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:39,633 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:39,633 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-16 11:45:39,633 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:39,633 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-16 11:45:39,633 INFO    SenderThread:16320 [job_builder.py:build():232] Attempting to build job artifact
+2023-06-16 11:45:39,634 INFO    SenderThread:16320 [job_builder.py:build():256] is repo sourced job
+2023-06-16 11:45:39,640 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:39,642 INFO    SenderThread:16320 [job_builder.py:build():297] adding wandb-job metadata file
+2023-06-16 11:45:39,657 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 9
+2023-06-16 11:45:39,657 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:39,658 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:39,658 DEBUG   SenderThread:16320 [sender.py:send():369] send: artifact
+2023-06-16 11:45:39,658 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-16 11:45:40,610 INFO    Thread-20 :16320 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\output.log
+2023-06-16 11:45:40,656 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:41,516 INFO    SenderThread:16320 [sender.py:send_artifact():1450] sent artifact job-https___github.com_a8787753_deep-reinforcement-learning-.git_test_code_test_MAPPO_train_football.py - {'id': 'QXJ0aWZhY3Q6NDg5MjIxMzU5', 'digest': 'f7f6ae9f7947d3b4a549dd761fe868ff', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_a8787753_deep-reinforcement-learning-.git_test_code_test_MAPPO_train_football.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_a8787753_deep-reinforcement-learning-.git_test_code_test_MAPPO_train_football.py', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc3MTAwMTYw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDg5MjIxMzU5', 'versionIndex': 2}}, 'version': 'v2'}
+2023-06-16 11:45:41,517 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:41,517 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-16 11:45:41,517 INFO    SenderThread:16320 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-16 11:45:41,616 INFO    SenderThread:16320 [dir_watcher.py:finish():389] scan: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files
+2023-06-16 11:45:41,617 INFO    SenderThread:16320 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\conda-environment.yaml conda-environment.yaml
+2023-06-16 11:45:41,618 INFO    SenderThread:16320 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\config.yaml config.yaml
+2023-06-16 11:45:41,618 INFO    SenderThread:16320 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\output.log output.log
+2023-06-16 11:45:41,625 INFO    SenderThread:16320 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\requirements.txt requirements.txt
+2023-06-16 11:45:41,632 INFO    SenderThread:16320 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\wandb-metadata.json wandb-metadata.json
+2023-06-16 11:45:41,632 INFO    SenderThread:16320 [dir_watcher.py:finish():403] scan save: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\wandb-summary.json wandb-summary.json
+2023-06-16 11:45:41,642 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 10
+2023-06-16 11:45:41,642 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:41,643 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:41,651 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-16 11:45:41,652 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:41,652 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-16 11:45:41,653 INFO    SenderThread:16320 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-16 11:45:41,662 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:41,663 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:42,677 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:42,678 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 11:45:42,678 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:43,336 INFO    wandb-upload_0:16320 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\config.yaml
+2023-06-16 11:45:43,691 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:43,691 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:44,293 INFO    wandb-upload_2:16320 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\requirements.txt
+2023-06-16 11:45:44,618 INFO    wandb-upload_3:16320 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\wandb-summary.json
+2023-06-16 11:45:44,704 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:44,704 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:45,421 INFO    wandb-upload_1:16320 [upload_job.py:push():133] Uploaded file C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\files\output.log
+2023-06-16 11:45:45,635 INFO    Thread-19 :16320 [sender.py:transition_state():602] send defer: 11
+2023-06-16 11:45:45,635 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:45,635 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-16 11:45:45,636 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:45,636 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-16 11:45:45,636 INFO    SenderThread:16320 [file_pusher.py:join():164] waiting for file pusher
+2023-06-16 11:45:45,636 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 12
+2023-06-16 11:45:45,636 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:45,636 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-16 11:45:45,637 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:45,637 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-16 11:45:45,714 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:45,999 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 13
+2023-06-16 11:45:45,999 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:46,000 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:46,000 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-16 11:45:46,000 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:46,001 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-16 11:45:46,001 INFO    SenderThread:16320 [sender.py:transition_state():602] send defer: 14
+2023-06-16 11:45:46,001 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 11:45:46,001 DEBUG   SenderThread:16320 [sender.py:send():369] send: final
+2023-06-16 11:45:46,002 INFO    HandlerThread:16320 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-16 11:45:46,002 DEBUG   SenderThread:16320 [sender.py:send():369] send: footer
+2023-06-16 11:45:46,002 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: defer
+2023-06-16 11:45:46,002 INFO    SenderThread:16320 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-16 11:45:46,003 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:46,003 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 11:45:46,004 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: server_info
+2023-06-16 11:45:46,004 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:46,004 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-16 11:45:46,004 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 11:45:46,006 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-16 11:45:46,006 DEBUG   SenderThread:16320 [sender.py:send_request():396] send_request: server_info
+2023-06-16 11:45:46,365 INFO    MainThread:16320 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-16 11:45:46,365 INFO    MainThread:16320 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-16 11:45:46,365 INFO    MainThread:16320 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-06-16 11:45:46,366 DEBUG   HandlerThread:16320 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-16 11:45:46,366 INFO    HandlerThread:16320 [handler.py:finish():854] shutting down handler
+2023-06-16 11:45:47,016 INFO    WriterThread:16320 [datastore.py:close():298] close: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_113435-otyiih0b\run-otyiih0b.wandb
+2023-06-16 11:45:47,380 INFO    SenderThread:16320 [sender.py:finish():1526] shutting down sender
+2023-06-16 11:45:47,381 INFO    SenderThread:16320 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-16 11:45:47,381 INFO    SenderThread:16320 [file_pusher.py:join():164] waiting for file pusher

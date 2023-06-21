@@ -1,0 +1,14 @@
+C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_mappo.py:142: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  actor_grad_norm = nn.utils.clip_grad_norm(self.policy.actor.parameters(), self.max_grad_norm)
+Traceback (most recent call last):
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 215, in <module>
+    main(sys.argv[1:])
+  File "C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py", line 200, in main
+    runner.run()
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\football_runner.py", line 50, in run
+    train_infos = self.train()
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\base_runner.py", line 132, in train
+    train_infos = self.trainer.train(self.buffer)
+  File "C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\test_MAPPO\r_mappo.py", line 209, in train
+    train_info['ratio'] += imp_weights.item()
+ValueError: only one element tensors can be converted to Python scalars

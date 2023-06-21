@@ -1,0 +1,186 @@
+2023-06-16 10:34:48,384 INFO    StreamThr :4576 [internal.py:wandb_internal():86] W&B internal server running at pid: 4576, started at: 2023-06-16 10:34:48.383727
+2023-06-16 10:34:48,387 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status
+2023-06-16 10:34:48,499 INFO    WriterThread:4576 [datastore.py:open_for_write():85] open: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\run-yneq43kv.wandb
+2023-06-16 10:34:48,500 DEBUG   SenderThread:4576 [sender.py:send():369] send: header
+2023-06-16 10:34:48,641 DEBUG   SenderThread:4576 [sender.py:send():369] send: run
+2023-06-16 10:34:49,449 INFO    SenderThread:4576 [dir_watcher.py:__init__():211] watching files in: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files
+2023-06-16 10:34:49,450 INFO    SenderThread:4576 [sender.py:_start_run_threads():1100] run started: yneq43kv with start time 1686882888.388727
+2023-06-16 10:34:49,550 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: summary_record
+2023-06-16 10:34:49,551 INFO    SenderThread:4576 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-16 10:34:49,571 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: check_version
+2023-06-16 10:34:49,572 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: check_version
+2023-06-16 10:34:50,469 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\wandb-summary.json
+2023-06-16 10:34:51,415 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: run_start
+2023-06-16 10:34:51,485 DEBUG   HandlerThread:4576 [system_info.py:__init__():31] System info init
+2023-06-16 10:34:51,485 DEBUG   HandlerThread:4576 [system_info.py:__init__():46] System info init done
+2023-06-16 10:34:51,485 INFO    HandlerThread:4576 [system_monitor.py:start():181] Starting system monitor
+2023-06-16 10:34:51,486 INFO    SystemMonitor:4576 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-16 10:34:51,486 INFO    HandlerThread:4576 [system_monitor.py:probe():201] Collecting system info
+2023-06-16 10:34:51,492 INFO    SystemMonitor:4576 [interfaces.py:start():190] Started cpu monitoring
+2023-06-16 10:34:51,492 INFO    SystemMonitor:4576 [interfaces.py:start():190] Started disk monitoring
+2023-06-16 10:34:51,493 INFO    SystemMonitor:4576 [interfaces.py:start():190] Started gpu monitoring
+2023-06-16 10:34:51,500 INFO    SystemMonitor:4576 [interfaces.py:start():190] Started memory monitoring
+2023-06-16 10:34:51,529 INFO    SystemMonitor:4576 [interfaces.py:start():190] Started network monitoring
+2023-06-16 10:34:51,560 DEBUG   HandlerThread:4576 [system_info.py:probe():195] Probing system
+2023-06-16 10:34:51,566 DEBUG   HandlerThread:4576 [system_info.py:_probe_git():180] Probing git
+2023-06-16 10:34:51,801 DEBUG   HandlerThread:4576 [system_info.py:_probe_git():188] Probing git done
+2023-06-16 10:34:51,801 DEBUG   HandlerThread:4576 [system_info.py:probe():240] Probing system done
+2023-06-16 10:34:51,801 DEBUG   HandlerThread:4576 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-06-16T02:34:51.562734', 'startedAt': '2023-06-16T02:34:48.348717', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-/test_code/test_MAPPO/train_football.py', 'codePath': 'test_code\\test_MAPPO\\train_football.py', 'git': {'remote': 'https://github.com/a8787753/deep-reinforcement-learning-.git', 'commit': '701f2d23aea0370fdeee24b437b5431b5476a451'}, 'email': '56746354+a8787753@users.noreply.github.com', 'root': 'C:/Users/WenqingLi/Documents/GitHub/deep-reinforcement-learning-', 'host': 'DESKTOP-328ON76', 'username': 'WenqingLi', 'executable': 'C:\\Users\\WenqingLi\\.conda\\envs\\torch\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3501.0, 'min': 0.0, 'max': 3501.0}, 'cpu_freq_per_core': [{'current': 3501.0, 'min': 0.0, 'max': 3501.0}], 'disk': {'total': 464.5905570983887, 'used': 278.7853889465332}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 31.91039276123047}}
+2023-06-16 10:34:51,801 INFO    HandlerThread:4576 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-16 10:34:51,801 INFO    HandlerThread:4576 [system_monitor.py:probe():214] Publishing system info
+2023-06-16 10:34:51,802 DEBUG   HandlerThread:4576 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-16 10:34:51,804 DEBUG   HandlerThread:4576 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-16 10:34:51,804 DEBUG   HandlerThread:4576 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-16 10:34:51,816 ERROR   HandlerThread:4576 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\WenqingLi\.conda\envs\torch\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2022.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 578, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2023-06-16 10:34:51,818 DEBUG   HandlerThread:4576 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-16 10:34:51,820 INFO    HandlerThread:4576 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-16 10:34:51,828 DEBUG   SenderThread:4576 [sender.py:send():369] send: files
+2023-06-16 10:34:51,828 INFO    SenderThread:4576 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-16 10:34:51,839 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:34:51,840 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:34:52,288 DEBUG   SenderThread:4576 [sender.py:send():369] send: telemetry
+2023-06-16 10:34:52,496 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\conda-environment.yaml
+2023-06-16 10:34:52,496 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\requirements.txt
+2023-06-16 10:34:52,497 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\wandb-metadata.json
+2023-06-16 10:34:52,914 INFO    wandb-upload_0:4576 [upload_job.py:push():133] Uploaded file C:\Users\WENQIN~1\AppData\Local\Temp\tmp0jnou0tnwandb\br7e4fgk-wandb-metadata.json
+2023-06-16 10:34:54,301 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:34:59,324 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:04,361 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:06,850 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:35:06,851 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:35:10,235 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:15,312 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:20,361 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:20,725 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\config.yaml
+2023-06-16 10:35:21,847 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:35:21,848 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:35:26,154 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:31,167 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:36,230 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:36,858 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:35:36,858 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:35:42,175 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:47,257 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:51,565 DEBUG   SystemMonitor:4576 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-16 10:35:51,567 DEBUG   SenderThread:4576 [sender.py:send():369] send: stats
+2023-06-16 10:35:51,869 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:35:51,869 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:35:53,138 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:35:58,187 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:03,222 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:06,886 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:36:06,887 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:36:11,930 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-16 10:36:13,092 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:18,117 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:21,573 DEBUG   SenderThread:4576 [sender.py:send():369] send: stats
+2023-06-16 10:36:21,902 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:36:21,903 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:36:23,171 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:28,214 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:33,246 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:36,905 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:36:36,906 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:36:39,188 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:44,237 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:49,277 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:36:51,584 DEBUG   SenderThread:4576 [sender.py:send():369] send: stats
+2023-06-16 10:36:51,910 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:36:51,911 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:36:55,197 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:00,222 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:05,262 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:06,934 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:37:06,935 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:37:11,213 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:16,236 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:21,289 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:21,589 DEBUG   SenderThread:4576 [sender.py:send():369] send: stats
+2023-06-16 10:37:21,933 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-16 10:37:21,934 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: stop_status
+2023-06-16 10:37:27,231 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:29,504 DEBUG   SenderThread:4576 [sender.py:send():369] send: exit
+2023-06-16 10:37:29,504 INFO    SenderThread:4576 [sender.py:send_exit():574] handling exit code: 0
+2023-06-16 10:37:29,505 INFO    SenderThread:4576 [sender.py:send_exit():576] handling runtime: 158
+2023-06-16 10:37:29,506 INFO    SenderThread:4576 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-16 10:37:29,506 INFO    SenderThread:4576 [sender.py:send_exit():582] send defer
+2023-06-16 10:37:29,507 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,507 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-16 10:37:29,507 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,507 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-16 10:37:29,507 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 1
+2023-06-16 10:37:29,507 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,508 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-16 10:37:29,508 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,508 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-16 10:37:29,508 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 2
+2023-06-16 10:37:29,508 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,508 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-16 10:37:29,508 INFO    HandlerThread:4576 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-16 10:37:29,509 DEBUG   SystemMonitor:4576 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-16 10:37:29,509 INFO    HandlerThread:4576 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-16 10:37:29,509 DEBUG   SystemMonitor:4576 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-16 10:37:29,516 INFO    HandlerThread:4576 [interfaces.py:finish():202] Joined disk monitor
+2023-06-16 10:37:29,557 INFO    HandlerThread:4576 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-16 10:37:29,558 INFO    HandlerThread:4576 [interfaces.py:finish():202] Joined memory monitor
+2023-06-16 10:37:29,558 INFO    HandlerThread:4576 [interfaces.py:finish():202] Joined network monitor
+2023-06-16 10:37:29,559 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,559 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-16 10:37:29,559 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 3
+2023-06-16 10:37:29,559 DEBUG   SenderThread:4576 [sender.py:send():369] send: stats
+2023-06-16 10:37:29,559 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,560 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-16 10:37:29,560 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,560 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-16 10:37:29,560 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 4
+2023-06-16 10:37:29,561 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,561 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-16 10:37:29,561 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,561 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-16 10:37:29,561 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 5
+2023-06-16 10:37:29,561 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,561 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-16 10:37:29,562 DEBUG   SenderThread:4576 [sender.py:send():369] send: summary
+2023-06-16 10:37:29,563 INFO    SenderThread:4576 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-16 10:37:29,564 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,564 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-16 10:37:29,564 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 6
+2023-06-16 10:37:29,564 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,564 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-16 10:37:29,565 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,565 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-16 10:37:29,565 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 7
+2023-06-16 10:37:29,565 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: status_report
+2023-06-16 10:37:29,565 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:29,565 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-16 10:37:29,566 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:29,566 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-16 10:37:30,490 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\wandb-summary.json
+2023-06-16 10:37:30,491 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\output.log
+2023-06-16 10:37:30,505 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-16 10:37:31,526 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 8
+2023-06-16 10:37:31,526 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: poll_exit
+2023-06-16 10:37:31,526 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:31,527 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-16 10:37:31,527 DEBUG   SenderThread:4576 [sender.py:send_request():396] send_request: defer
+2023-06-16 10:37:31,527 INFO    SenderThread:4576 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-16 10:37:31,527 INFO    SenderThread:4576 [job_builder.py:build():232] Attempting to build job artifact
+2023-06-16 10:37:31,528 INFO    SenderThread:4576 [job_builder.py:build():256] is repo sourced job
+2023-06-16 10:37:31,535 INFO    SenderThread:4576 [job_builder.py:build():297] adding wandb-job metadata file
+2023-06-16 10:37:31,551 INFO    SenderThread:4576 [sender.py:transition_state():602] send defer: 9
+2023-06-16 10:37:31,551 DEBUG   HandlerThread:4576 [handler.py:handle_request():144] handle_request: defer
+2023-06-16 10:37:31,552 DEBUG   SenderThread:4576 [sender.py:send():369] send: artifact
+2023-06-16 10:37:31,552 INFO    HandlerThread:4576 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-16 10:37:32,517 INFO    Thread-20 :4576 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\WenqingLi\Documents\GitHub\deep-reinforcement-learning-\test_code\results\Football\academy_3_vs_1_with_keeper\mappo\check\wandb\run-20230616_103448-yneq43kv\files\output.log
