@@ -2,123 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824614a-0423-42c2-a989-3a5721b2edb8" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_100843-884v7o9a/run-884v7o9a.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101200-12s8buex/run-12s8buex.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101250-h4alaj8s/run-h4alaj8s.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101346-kyz6sk0o/run-kyz6sk0o.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101635-abg5tszq/run-abg5tszq.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101719-dhc5vqed/run-dhc5vqed.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101802-kcgjwxll/run-kcgjwxll.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101834-s3ioq438/run-s3ioq438.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_101904-buxfrosq/run-buxfrosq.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/files/conda-environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mappo/check/wandb/run-20230616_102141-bui297uc/run-bui297uc.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/base_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/env/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/env/football_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/env/multiagentenv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/env/obs_encode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/env/rew_encode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/football_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/ma_transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/mat_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/shared_buffer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/transformer_act.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/transformer_policy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/valueNorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run1/logs/events.out.tfevents.1687252459.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run2/logs/events.out.tfevents.1687252512.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run3/logs/events.out.tfevents.1687252649.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run4/logs/events.out.tfevents.1687253033.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run5/logs/events.out.tfevents.1687253232.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run6/logs/events.out.tfevents.1687253415.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run7/logs/events.out.tfevents.1687253540.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/actor_grad_norm/actor_grad_norm/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/average_step_rewards/average_step_rewards/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/critic_grad_norm/critic_grad_norm/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/dist_entropy/dist_entropy/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/events.out.tfevents.1687255932.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/policy_loss/policy_loss/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/ratio/ratio/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/train_episode_rewards/aver_rewards/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/train_episode_scores/aver_scores/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/logs/value_loss/value_loss/events.out.tfevents.1687255973.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run8/models/transformer_0.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/actor_grad_norm/actor_grad_norm/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/average_step_rewards/average_step_rewards/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/critic_grad_norm/critic_grad_norm/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/dist_entropy/dist_entropy/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/events.out.tfevents.1687256009.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/policy_loss/policy_loss/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/ratio/ratio/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/train_episode_rewards/aver_rewards/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/train_episode_scores/aver_scores/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/logs/value_loss/value_loss/events.out.tfevents.1687256015.DESKTOP-328ON76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/results/Football/academy_3_vs_1_with_keeper/mat/check/run9/models/transformer_0.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/env/env_wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_code/test_MAT/train_football.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deep-reinforcement-learning-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep-reinforcement-learning-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/Layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/Layers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/SharedReplayBuffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/shared_buffer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/base_runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/football_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/football_runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/get_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/get_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/r_actor_critic.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/r_actor_critic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_MAPPO/r_mappo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAPPO/r_mappo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code/test_mujoco.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_mujoco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/env/football_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/env/football_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/env/multiagentenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/env/multiagentenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/env/rew_encode.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/env/rew_encode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/football_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/football_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/mat_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/mat_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_MAT/valueNorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_MAT/valueNorm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code/test_footballenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code/test_footballenv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +82,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.test_mujoco">
+  <component name="RunManager" selected="Python._test">
     <configuration name="_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="r_mappo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="env_wrappers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAT/env" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/r_mappo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAT/env/env_wrappers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shared_buffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mat_trainer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/shared_buffer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAT/mat_trainer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,16 +167,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_mujoco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train_football (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_mujoco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAT/train_football.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_football" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="valueNorm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deep-reinforcement-learning-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,11 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAPPO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_code/test_MAT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAPPO/train_football.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_code/test_MAT/valueNorm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,18 +212,18 @@
     <list>
       <item itemvalue="Python.test" />
       <item itemvalue="Python._test" />
-      <item itemvalue="Python.r_mappo" />
-      <item itemvalue="Python.shared_buffer" />
-      <item itemvalue="Python.train_football" />
-      <item itemvalue="Python.test_mujoco" />
+      <item itemvalue="Python.env_wrappers" />
+      <item itemvalue="Python.mat_trainer" />
+      <item itemvalue="Python.train_football (1)" />
+      <item itemvalue="Python.valueNorm" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_mujoco" />
         <item itemvalue="Python._test" />
-        <item itemvalue="Python.train_football" />
-        <item itemvalue="Python.r_mappo" />
-        <item itemvalue="Python.shared_buffer" />
+        <item itemvalue="Python.env_wrappers" />
+        <item itemvalue="Python.train_football (1)" />
+        <item itemvalue="Python.mat_trainer" />
+        <item itemvalue="Python.valueNorm" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686881755197</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Changes">
+      <created>1687227318156</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1687227318156</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,6 +543,96 @@
           <url>file://$PROJECT_DIR$/test_code/test_MAPPO/r_mappo.py</url>
           <line>116</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/train_football.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/football_runner.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/base_runner.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/football_runner.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/football_runner.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/football_runner.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/_test.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/train_football.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/train_football.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_code/test_MAT/train_football.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

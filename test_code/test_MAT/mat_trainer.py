@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from util import get_grad_norm, huber_loss, mse_loss, check
-from valuenorm import ValueNorm
+from valueNorm import ValueNorm
 
 
 class MATTrainer:
@@ -76,12 +76,16 @@ class MATTrainer:
             value_loss = torch.max(value_loss_original, value_loss_clipped)
         else:
             value_loss = value_loss_original
+        # print(value_loss)
 
-            # if self._use_value_active_masks and not self.dec_actor:
-            if self._use_value_active_masks:
-                value_loss = (value_loss * active_masks_batch).sum() / active_masks_batch.sum()
-            else:
-                value_loss = value_loss.mean()
+        # if self._use_value_active_masks and not self.dec_actor:
+        if self._use_value_active_masks:
+            value_loss = (value_loss * active_masks_batch).sum() / active_masks_batch.sum()
+        else:
+            value_loss = value_loss.mean()
+
+
+        # print(value_loss)
 
         return value_loss
 
@@ -132,6 +136,7 @@ class MATTrainer:
 
         # critic update
         value_loss = self.cal_value_loss(values, value_preds_batch, return_batch, active_masks_batch)
+
 
         loss = policy_loss - dist_entropy * self.entropy_coef + value_loss * self.value_loss_coef
 

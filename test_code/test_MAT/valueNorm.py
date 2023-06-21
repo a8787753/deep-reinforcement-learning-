@@ -3,11 +3,11 @@ import torch
 import torch.nn as nn
 
 
-class valueNorm(nn.Module):
+class ValueNorm(nn.Module):
     """Normalize a vector of observations - across the first norm_axes dimensions."""
-    def __init__(self, input_shape, norm_axes=1, beta=0.99999, per_element_update=False, epsilon=1e-5,
-                 device=torch.device("cpu")):
-        super(valueNorm, self).__init__()
+    def __init__(self, input_shape, norm_axes=1, beta=0.99999, per_element_update=False, epsilon=1e-5, device=torch.
+                 device("cpu")):
+        super(ValueNorm, self).__init__()
 
         self.input_shape = input_shape
         self.norm_axes = norm_axes

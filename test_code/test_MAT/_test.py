@@ -1,36 +1,175 @@
 import numpy as np
 import torch
+import parser
+import sys
+from abc import ABC, abstractmethod
+from football_env import FootballEnv
 
-# batch_size = 6
-#
-# num_mini_batch = 2
-#
-# mini_batch_size = batch_size // num_mini_batch
-#
-# num_agents = 3
-#
-#
-# rows = np.indices((batch_size, num_agents))[0]
-#
-# cols = np.stack([np.arange(num_agents) for _ in range(batch_size)])
-#
-# ibs = np.random.random((3, 3, num_agents, 1))
-#
-# ibs_r = ibs.reshape(-1, *ibs.shape[2:])
-#
-# ibs_cr = ibs_r[rows, cols]
-#
-# rand = torch.randperm(batch_size).numpy()
-#
-# sampler = [rand[i * mini_batch_size:(i + 1) * mini_batch_size] for i in range(num_mini_batch)]
 
-a = torch.from_numpy(np.random.random((2,2,2)))
-print(a)
+class ShareVecEnv(ABC):
+    """
+    An abstract asynchronous, vectorized environment.
+    Used to batch data from multiple copies of an environment, so that
+    each observation becomes an batch of observations, and expected action is a batch of actions to
+    be applied per-environment.
+    """
+    closed = False
+    viewer = None
 
-n = a.view(-1, 2)
+    metadata = {
+        'render.modes': ['human', 'rgb_array']
+    }
 
-print(n)
+    def __init__(self, num_envs, observation_space, share_observation_space, action_space):
+        self.num_envs = num_envs
+        self.observation_space = observation_space
+        self.share_observation_space = share_observation_space
+        self.action_space = action_space
 
-m = a.reshape(-1, 2)
-print(m)
+    def reset(self):
+        """
+        Reset all the environments and return an array of
+        observations, or a dict of observation arrays.
 
+        If step_async is still doing work, that work will
+        be cancelled and step_wait() should not be called
+        until step_async() is invoked again.
+        """
+        pass
+
+
+    def step_async(self, actions):
+        """
+        Tell all the environments to start taking a step
+        with the given actions.
+        Call step_wait() to get the results of the step.
+
+        You should not call this if a step_async run is
+        already pending.
+        """
+        pass
+
+
+    def step_wait(self):
+        """
+        Wait for the step taken with step_async().
+
+        Returns (obs, rews, dones, infos):
+         - obs: an array of observations, or a dict of
+                arrays of observations.
+         - rews: an array of rewards
+         - dones: an array of "episode done" booleans
+         - infos: a sequence of info objects
+        """
+        pass
+
+    def close_extras(self):
+        """
+        Clean up the  extra resources, beyond what's in this base class.
+        Only runs when not self.closed.
+        """
+        pass
+
+    def close(self):
+        if self.closed:
+            return
+        if self.viewer is not None:
+            self.viewer.close()
+        self.close_extras()
+        self.closed = True
+
+    def step(self, actions):
+        """
+        Step the environments synchronously.
+
+        This is available for backwards compatibility.
+        """
+        self.step_async(actions)
+        return self.step_wait()
+
+    def get_images(self):
+        """
+        Return RGB images from each environment
+        """
+        raise NotImplementedError
+
+    @property
+    def unwrapped(self):
+        if isinstance(self, VecEnvWrapper):
+            return self.venv.unwrapped
+        else:
+            return self
+
+    def get_viewer(self):
+        if self.viewer is None:
+            from gym.envs.classic_control import rendering
+            self.viewer = rendering.SimpleImageViewer()
+        return self.viewer
+
+
+class ShareDummyVecEnv(ShareVecEnv):
+    def __init__(self, env_fns):
+        self.envs = [fn() for fn in env_fns]
+        env = self.envs[0]
+        self.n_agents = env.n_agents
+        ShareVecEnv.__init__(self, len(
+            env_fns), env.observation_space, env.share_observation_space, env.action_space)
+        self.actions = None
+
+    def step_async(self, actions):
+        self.actions = actions
+
+    def step_wait(self):
+        results = [env.step(a) for (a, env) in zip(self.actions, self.envs)]
+        obs, share_obs, rews, dones, infos, available_actions = map(
+            np.array, zip(*results))
+
+        for (i, done) in enumerate(dones):
+            if 'bool' in done.__class__.__name__:
+                if done:
+                    obs[i], share_obs[i], available_actions[i] = self.envs[i].reset()
+            else:
+                if np.all(done):
+                    obs[i], share_obs[i], available_actions[i] = self.envs[i].reset()
+        self.actions = None
+
+        return obs, share_obs, rews, dones, infos, available_actions
+
+    def reset(self):
+        results = [env.reset() for env in self.envs]
+        obs, share_obs, available_actions = map(np.array, zip(*results))
+        return obs, share_obs, available_actions
+
+    def close(self):
+        for env in self.envs:
+            env.close()
+
+    def save_replay(self):
+        for env in self.envs:
+            env.save_replay()
+
+    def render(self, mode="human"):
+        if mode == "rgb_array":
+            return np.array([env.render(mode=mode) for env in self.envs])
+        elif mode == "human":
+            for env in self.envs:
+                env.render(mode=mode)
+        else:
+            raise NotImplementedError
+
+
+env_args = {"scenario": "academy_3_vs_1_with_keeper",
+            "n_agent": 3,
+            "reward": "scoring"}
+def get_env():
+    def init_env():
+        env = FootballEnv(env_args=env_args)
+        return env
+    return init_env
+
+env = get_env()()
+env1 = ShareDummyVecEnv([get_env()] for _ in range(3))
+
+
+# env1.unwrapped
+# ShareDummyVecEnv([get_env])

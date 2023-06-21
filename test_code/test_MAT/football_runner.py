@@ -3,7 +3,7 @@ import wandb
 import numpy as np
 from functools import reduce
 import torch
-from mat.runner.shared.base_runner import Runner
+from base_runner import Runner
 
 
 def _t2n(x):
