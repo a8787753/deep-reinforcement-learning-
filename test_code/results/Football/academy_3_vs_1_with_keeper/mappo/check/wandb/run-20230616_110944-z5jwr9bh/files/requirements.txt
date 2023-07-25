@@ -2,7 +2,7 @@ absl-py==1.4.0
 appdirs==1.4.4
 blis==0.7.9
 catalogue==2.0.8
-certifi==2023.5.7
+certifi==2023.7.22
 cffi==1.15.1
 charset-normalizer==3.1.0
 click==7.1.2
